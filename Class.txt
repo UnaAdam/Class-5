@@ -43,3 +43,81 @@
    43  nano README.txt
    44  nano Class.txt
    45  history 
+ocker ps
+    2  mkdir Git
+    3  cd Git
+    4  ls
+    5  git clone https://github.com/UnaAdam/Class-5.git
+    6  ls
+    7  cd Class-5
+    8  ls
+    9  nano Dockerfile
+   10  ls
+   11  nano Dockerfile
+   12  docker images
+   13  docker build -t d_adamov/my-new-image ./
+   14  docker build -t d_adamov/my-new-image ./
+   15  docker build -t d_adamov/my-new-image ./
+   16  docker images
+   17  docker build -t d_adamov/my-new-image ./
+   18  docker build -t d_adamov/my-new-image ./
+   19  docker images
+   20  docker build -t d_adamov/my-new-image ./
+   21  python --version
+   22  docker images
+   23  docker run -ti d_adamov/my-new-image
+   24  docker build -t d_adamov/my-new-image ./
+   25  python --version
+   26  docker images
+   27  docker build -t d_adamov/my-new-image ./
+   28  docker images
+   29  docker build -t d_adamov/irenamedit ./
+   30  docker build -t d_adamov/irenamedit ./
+   31  docker omages
+   32  docker images
+   33  python --version
+   34  sudo apt install python3-pip
+   35  docker build -t d_adamov/irenamedit ./
+   36  docker run -ti d_adamov/irenamedit 
+   37  docker build -t d_adamov/class4 ./
+   38  python --version
+   39* python --version4
+   40* docker run -ti d_adamov/class5
+   41  docker build -t d_adamov/class4 ./
+   42  docker build -t d_adamov/class4 ./
+   43  nano README.txt
+   44  nano Class.txt
+   45  history 
+   46  nano Class.txt
+   47  git add Class.txt
+   48  git commit -m "First commit"
+   49  git push 
+   50  nano Class.txt
+   51  git add Dockerfile
+   52  git commit -m "Second commit"
+   53  git push
+   54  git clone https://github.com/ArwaSheraky/class3-homework.git
+   55  ls
+   56  cp class3-homework/csv_python.py ./
+   57  ls
+   58  cp class3-homework/housing.data.txt ./
+   59  ls
+   60  docker build -t d_adamov/class4-homework
+   61  docker build -t d_adamov/class4-homework ./
+   62  docker images
+   63  docker build -t d_adamov/class4-homework ./
+   64  docker build -t d_adamov/class4-homework ./
+   65  docker images
+   66  docker build -t d_adamov/class4-homework ./
+   67  docker images
+   68  docker run -ti d_adamov/class4-homwork
+   69  docker run -ti d_adamov/class4-homework
+   70  docker run -ti d_adamov/class4-homework
+   71  docker build -t d_adamov/class4-homework ./
+   72  docker run -ti d_adamov/class4-homework
+   73  git add .
+   74  git commit -m "Third commit"
+   75  git push
+   76  hystory
+   77  history
+
