@@ -8,3 +8,6 @@ RUN cat /etc/lsb-release
 RUN apt-get update
 RUN apt-get install -y python3-pip
 RUN pip3 install numpy pandas
+ADD . /.
+CMD ["python3","csv_python.py"]
+
