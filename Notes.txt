@@ -1,0 +1,6 @@
+How to use Docke: 
+
+- build an image: docker build -t image name ./
+- show docker image: docker images
+- run image: docker run -ti image name
+- exit an image: exit
