@@ -4,20 +4,20 @@ B) SHOWING US THAT IS EXITS/WHEN IT WAS MADE
 
 C) RUNNING YOUR DOCKER FILE
 
-# We need to create a directory on our computer 
+We need to create a directory on our computer 
 mkdir Git
 
-# Go to the created directory
+Go to the created directory
 cd Git
 
-#Conect with a GitHub
+Conect with a GitHub
 git clone weblink
 
-#Create file called Dockerfile
+Create file called Dockerfile
 nano Dockerfile 
 
-#Connect to unbuntu, install the Python 3, and libraries (panda and numpy), copy files 
-#Docker and runnung them 
+Connect to unbuntu, install the Python 3, and libraries (panda and numpy), copy files 
+Docker and runnung them 
 FROM unbuntu:16.04
 MAINTAINER Dragica Adamovic <UnaAda.github.io>
 
@@ -29,13 +29,13 @@ RUN pip3 install numpy pandas
 ADD . /.
 CMD ["pythin3","csv_python.py"]
 
-#Building the app
+Building the app
 docker build -t d_adamov/my-new-image ./
 
-#To see where is our build image 
+To see where is our build image 
 docker images
 
-#Run the app
+Run the app
 docker run -ti d_adamov/my-new-image 
  
 
