@@ -68,3 +68,22 @@ import numpy as np
 print(np.mean(data))
 print(np.std(data))
 
+
+
+bostonDF = pd.DataFrame(data)
+#print(bostonDF.head())
+
+bostonDF = bostonDF.rename(columns={0: 'CRIM', 1: 'ZN', 2:'INDUS', 3:'CHAS', 4:'NOX', 5:'RM', 6:'AGE', 7:'DIS', 8:'RAD', 9: 'TAX', 10:'PTRARIO', 11:'B', 12:'LSTAT', 13:'PRICE'}) 
+print(bostonDF.head())
+
+import matplotlib.pyplot as plt
+import sklearn
+import seaborn as sns 
+
+from matplotlib import rcParams
+
+correlation_matrix = bostonDF.corr().round(2)
+heatmap = sns.heatmap(data=correlation_matrix, annot=True)
+myfig = heatmap.get_figure()
+myfig.savefig('output.png')
+

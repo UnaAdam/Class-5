@@ -46,3 +46,25 @@ the code on a master branch. This could potentially caused the problems when tim
 integration is to make this merging more easier.
 
 
+Create Sudocode
+
+0 Load data
+1 Format data
+2 Summary statistics
+  2.5 Add the headers 
+3 Look at data
+  3.1 Plot data on ther own 
+      3.1.1 For each colum 
+      3.1.2 Get variablus
+      3.1.3 Plot hystogram 
+  
+  3.2 Plot pairs "2xfor"
+      3.2.1 For each pair of columns
+      3.2.2 Plot
+    
+  3.3 Had another plot data
+ 
+
+"{0}words".format()
+
+
