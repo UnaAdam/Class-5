@@ -1,6 +1,9 @@
-#!/usr/bin/env python
 
-import os
+import pandas as pd
+import numpy as np
+import csv 
+import argparse
+import matplotlib as plt
 
 #'with' is equal to:
 #file_handle = open(myfilename , 'r')
