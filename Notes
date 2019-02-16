@@ -1,0 +1,161 @@
+  1  ls 
+    2  cd Class-5
+    3  cd Git
+    4  cd Class-5
+    5  ls
+    6  nano Dockerfile
+    7  nano Docker
+    8  nano Dockerfile
+    9  docker ps
+   10  mkdir Git
+   11  cd Git
+   12  ls
+   13  git clone https://github.com/UnaAdam/Class-5.git
+   14  ls
+   15  cd Class-5
+   16  ls
+   17  nano Dockerfile
+   18  ls
+   19  nano Dockerfile
+   20  docker images
+   21  docker build -t d_adamov/my-new-image ./
+   22  docker build -t d_adamov/my-new-image ./
+   23  docker build -t d_adamov/my-new-image ./
+   24  docker images
+   25  docker build -t d_adamov/my-new-image ./
+   26  docker build -t d_adamov/my-new-image ./
+   27  docker images
+   28  docker build -t d_adamov/my-new-image ./
+   29  python --version
+   30  docker images
+   31  docker run -ti d_adamov/my-new-image
+   32  docker build -t d_adamov/my-new-image ./
+   33  python --version
+   34  docker images
+   35  docker build -t d_adamov/my-new-image ./
+   36  docker images
+   37  docker build -t d_adamov/irenamedit ./
+   38  docker build -t d_adamov/irenamedit ./
+   39  docker omages
+   40  docker images
+   41  python --version
+   42  sudo apt install python3-pip
+   43  docker build -t d_adamov/irenamedit ./
+   44  docker run -ti d_adamov/irenamedit 
+   45  docker build -t d_adamov/class4 ./
+   46  python --version
+   47  python --version4
+   48  docker run -ti d_adamov/class5
+   49  docker build -t d_adamov/class4 ./
+   50  docker build -t d_adamov/class4 ./
+   51  nano README.txt
+   52  nano Class.txt
+   53  history 
+   54  nano Class.txt
+   55  git add Class.txt
+   56  git commit -m "First commit"
+   57  git push 
+   58  nano Class.txt
+   59  git add Dockerfile
+   60  git commit -m "Second commit"
+   61  git push
+   62  git clone https://github.com/ArwaSheraky/class3-homework.git
+   63  ls
+   64  cp class3-homework/csv_python.py ./
+   65  ls
+   66  cp class3-homework/housing.data.txt ./
+   67  ls
+   68  docker build -t d_adamov/class4-homework
+   69  docker build -t d_adamov/class4-homework ./
+   70  docker images
+   71  docker build -t d_adamov/class4-homework ./
+   72  docker build -t d_adamov/class4-homework ./
+   73  docker images
+   74  docker build -t d_adamov/class4-homework ./
+   75  docker images
+   76  docker run -ti d_adamov/class4-homwork
+   77  docker run -ti d_adamov/class4-homework
+   78  docker run -ti d_adamov/class4-homework
+   79  docker build -t d_adamov/class4-homework ./
+   80  docker run -ti d_adamov/class4-homework
+   81  git add .
+   82  git commit -m "Third commit"
+   83  git push
+   84  hystory
+   85  history
+   86  nano Class.txt
+   87  git add Class.txt
+   88  git commit -m "Fourth comit"
+   89  git push
+   90  git push
+   91  nano Notes.txt
+   92  git add Notes.txt
+   93  git commit -m "Sixth commit"
+   94  git push
+   95  cd
+   96  ls
+   97  cd Class-5
+   98  python 3 generic_parser.py
+   99  python3 generic_parser.py
+  100  python3 generic_parser.py -h
+  101  python3 generic_parser.py -h
+  102  python3 generic_parser.py -h
+  103  python3 generic_parser.py -h
+  104  python3 generic_parser.py -h
+  105  pip3 install ipython
+  106  ipython
+  107  pip3 install ipython --user
+  108  pip install ipython --user
+  109  python
+  110  python3 generic_parser.py housing.data.txt
+  111  python3 generic_parser.py housing.data.txt (Namespace(csvfile='housing.data.txt')
+  112  python3 generic_parser.py housing.data.txt (Namespace(csvfile='housing.data.txt')
+  113  python3 generic_parser.py housing.data.txt
+  114  python3 generic_parser.py housing.data.txt
+  115  python3 generic_parser.py housing.data.txt
+  116  python3 generic_parser.py housing.data.txt
+  117  python3 generic_parser.py housing.data.txt
+  118  python3 generic_parser.py housing.data.txt
+  119  python3 generic_parser.py housing.data.txt
+  120  python3 generic_parser.py housing.data.txt
+  121  python3 generic_parser.py if.txt
+  122  pip3 install pandas --users
+  123  pip3 install pandas --user
+  124  python3 generic_parser.py housing.data.txt
+  125  python3 generic_parser.py housing.data.txt
+  126  pip3 install --upgrade pip --user
+  127  python3 generic_parser.py housing.data.txt
+  128  python3 generic_parser.py housing.data.txt
+  129  python3 generic_parser.py housing.data.txt
+  130  pip freeze | grep pandas
+  131  pip3 freeze | grep pandas 
+  132  python3 generic_parser.py housing.data.txt
+  133  python3 generic_parser.py housing.data.txt
+  134  ls
+  135  mv ~/Desktop/wine.data.txt ./
+  136  ls
+  137  python3 generic_parser.py wine.data.txt
+  138  python3 generic_parser.py wine.data.txt
+  139  python3 generic_parser.py wine.data.txt
+  140  python3 generic_parser.py wine.data.txt
+  141  python3 generic_parser.py wine.data.txt
+  142  python3 generic_parser.py wine.data.txt
+  143  python3 generic_parser.py housing.data.txt
+  144  vi wine.data.txt
+  145  python3 generic_parser.py wine.data.txt
+  146  ls
+  147  cd Class-5
+  148  python3 generic_parser.py wine.data.txt
+  149  python3 generic_parser.py wine.data.txt
+  150  python3 generic_parser.py housing.data.txt
+  151  python3 generic_parser.py wine.data.txt
+  152  python3 generic_parser.py wine.data.txt
+  153  python3 generic_parser.py wine.data.txt
+  154  python3 generic_parser.py housing.data.txt
+  155  git add .
+  156  git commit -m "Seventh commit"
+  157  push
+  158  git push
+  159  hystory
+  160  history
+

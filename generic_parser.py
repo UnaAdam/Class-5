@@ -52,4 +52,19 @@ print(data.head())
 
 print(data.shape)
 
+#2. organzie a file so we can access columns and rows of it easily
+
+#2a. access any row "pandas access data by row" 
+#print(data.iloc[3:5,:])
+
+#2b. access any column "pandas acces by colum"
+#print(data.iloc[:3, -2:])
+
+#2c. access any value "pandas acces specific data based on location"
+#print(data.iloc[3,4])
+
+import numpy as np
+
+print(np.mean(data))
+print(np.std(data))
 
