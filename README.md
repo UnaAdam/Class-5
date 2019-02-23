@@ -46,15 +46,26 @@ the code on a master branch. This could potentially caused the problems when tim
 integration is to make this merging more easier.
 
 
-Create Pseudocode
+Create Pseudocode  - Homework #5
 
 A) LOAD
 
-a.0 
+   a.0 accept arbitrary filename as argument
+       a.0.1 import library ArgumentParser
+
+   a.1 load the file
+ 
 
 B) 'ORGANIZE'
 
-C) COMPUTE SUMMARY STATISTics
+   b.0 organize the file so we can access the columns and rows easily
+       b.0.1 we can import panada library
+       b.0.2 then we can arrange the data in the tables with default names of columns and rows (e.g. 0, 1, 2, 3, 4, etc.)
+
+C) COMPUTE SUMMARY STATISTiCS
+   c.0 for instance see the minimum, maximum and average values of the columns 
+   c.1 also we can print mode, wich is the value that appears the most in our data
+   c.2 see the deviation of the data - standard 
 
 D) VIZUALIZE THE DATA (1-feature, one column at the time, i.e. histogram and save the figures to the file) - we can either build up the plots in the python 
 or use the libraries. For the purpose of this study, we will import library that will allow us to more easily vizualise given data. 
@@ -69,15 +80,44 @@ or use the libraries. For the purpose of this study, we will import library that
    d.7 determine the text propreties, like size, type, etc.
    d.8 determine the frequency, or the 'density' of the plot
    d.9 set the limit of the y-axis
+   d.10 create an image, figure
+   d.11 plot to file
 
 Note: a plot of a histogram uses its bin edges on the x-axis and the corresponding frequency on y-axis. For instance, we can set the passing bin='auto'
 So 
 
 E) VIZUALIZE THE DATA (2-feature, two columns, at the time), i.e. scatter plot, and save the figures to the file)
+   e.0. determine   
+
+
 
 F) FOR ADDING HEADER DATA TO THE TABLE 
+   f.0 we need to rename the columns
+       f.0.1 for each column we need to provide the name, pandas lybrary have the option for renaming 
+       f.0.2 print the table, or save it as a file 
 
-G) ADDITIONAL TYPE OF PLOT FOR VISUALIZING 2 OR MORE FEATURES AT THE TIME (use matplotlib for plotting)  
+G) ADDITIONAL TYPE OF PLOT FOR VISUALIZING 2 OR MORE FEATURES AT THE TIME (use matplotlib for plotting)
+   g.0 for instance, we can print the correlation matrix 
+       g.0.1 import matplotlib 
+       g.0.2 we need to print our table as a coorelation matrix, so we will find a correlation coefficients between variable
+             so each cell in a table will show the correlation between variables. This way we will summarize data and be able to go to more deeper analysis, see the patterns. 
+
+       g.0.3 create a heat map from the data in a correlatio matrix, so data from the correlation matrix are used for heat map
+       g.0.4 create from heat map a figure
+       g.0.5 save as figure, for instance image format png
+ 
+
+
+
+
+
+   
+
+
+
+
+
+  
 
 
 
