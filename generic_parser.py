@@ -79,11 +79,32 @@ print(bostonDF.head())
 import matplotlib.pyplot as plt
 import sklearn
 import seaborn as sns 
-
-from matplotlib import rcParams
+sns.set(color_codes=True)
 
 correlation_matrix = bostonDF.corr().round(2)
 heatmap = sns.heatmap(data=correlation_matrix, annot=True)
 myfig = heatmap.get_figure()
 myfig.savefig('output.png')
+plt.close()
 
+
+#Histogram for each column
+for col in bostonDF: 
+   idx= bostonDF.columns.get_loc(col)
+   sns.distplot(bostonDF[col].values,rug=False,bins=50).set_title("Histogram of {0}".format(col))
+   plt.savefig("./{0}_{1}.png".format(idx,col), dpi=100)
+   plt.close()
+
+
+
+
+#Scatterplot and a regression line for each 2 columns
+   for nxt_col in bostonDF.iloc[:,idx+1:]:
+ 
+      sns.regplot(bostonDF[col], bostonDF[nxt_col], color='g')
+      plt.xlabel('Value of {0}'.format(col))
+      plt.ylabel('Value of {0}'.format(nxt_col))
+      plt.title ('Scatter plot of {0} and {1}'.format(col,nxt_col))
+
+      plt.savefig("./{0}_{1}_{2}".format(idx,col,nxt_col), dpi=200)
+      plt.close()
