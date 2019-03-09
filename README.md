@@ -141,3 +141,14 @@ G) ADDITIONAL TYPE OF PLOT FOR VISUALIZING 2 OR MORE FEATURES AT THE TIME (use m
 "{0}words".format()
 
 
+HOMEWORK FOR WEEK 7
+
+the best to images for interpreting the data are Output.png & Pairplot.png. The first one is a heatmap, 
+a correlation matrix that measeure the linear relationship between the variables. The second image is 
+created with seaborn library, and is also relationship matrix, that shows graphically correlation between 
+different features. Coorelation coefficients could range from -1 to 1, and the more value is closer to 
+the 1, it means that there is a strong relationship between variables. For instance, if we look at the 
+price as a main feature, we can see that RM (0.70) and LSTAT (0.74) have hight correlation. 
+Also, of we werify on the other image file, Pairplot.png, we will see that of RM increases the prices 
+increase as well. Also, if ALSTAT increases the prices decreases. For the firts feature it look like 
+we can feat the straight curve, while in the second one, it would be a non-linear curve.  
