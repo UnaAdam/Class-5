@@ -105,6 +105,23 @@ for col in bostonDF:
       plt.xlabel('Value of {0}'.format(col))
       plt.ylabel('Value of {0}'.format(nxt_col))
       plt.title ('Scatter plot of {0} and {1}'.format(col,nxt_col))
-
       plt.savefig("./{0}_{1}_{2}".format(idx,col,nxt_col), dpi=200)
       plt.close()
+
+g = sns.pairplot(bostonDF, hue="PRICE")
+g.savefig("Pairplot.png")
+plt.close()
+
+
+ax1 = bostonDF.plot(kind='scater', x = 'PRICE', y = 'CRIM', color='r')
+ax2 = bostonfDF.plot(kind='scater', x = 'PRICE', y = 'ZN', color='b')
+ax3 = bostonDF.plot(kind='scater', x = 'PRICE', y = 'INDUS', color='g')
+
+newg = print(ax1 == ax2 ==  ax3)
+newg.savefig("Multiplot.png")
+plt.close()
+
+
+
+
+
